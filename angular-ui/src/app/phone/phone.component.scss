@@ -1,0 +1,40 @@
+.facts-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+    .fact {
+        font-size: 22px;
+        margin: auto;
+        color: red;
+        font-weight: bold;
+    }
+}
+
+.phone-container {
+    background-color: whitesmoke;
+    width: 15%;
+    height: 50%;
+    position: absolute;
+    right: 3%;
+    bottom: 3%;
+    border: 10px solid black;
+    border-radius: 5px;
+    overflow: auto;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    .bar {
+        background-color: red;
+
+        &.bottom-bar {
+            height: 5%;
+        }
+
+        &.top-bar {
+            height: 3%;
+        }
+    }
+}

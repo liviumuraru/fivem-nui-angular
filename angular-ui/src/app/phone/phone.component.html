@@ -1,0 +1,12 @@
+<section *ngIf="isShown()" class="phone-container">
+    <sentryui-loader *ngIf="showLoader"></sentryui-loader>
+    <section class="top-bar bar"></section>
+    <section class="viewport">
+        <mat-grid-list cols="6" rowHeight="80px">
+            <mat-grid-tile [colspan]="1" [rowspan]="1" class="app-tile" *ngFor="let app of apps">
+                <sentryui-phone-app-icon [icon]="app.icon" [text]="app.text"></sentryui-phone-app-icon>
+            </mat-grid-tile>
+        </mat-grid-list>
+    </section>
+    <section class="bottom-bar bar"></section>
+</section>
