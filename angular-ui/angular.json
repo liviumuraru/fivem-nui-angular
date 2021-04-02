@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "PATH TO YOUR FIVEM RESOURCE FOLDER",
+            "outputPath": "C:/Users/main/Desktop/txData/CFXDefault_5D9828.base/resources/[ui]/sentry-phone/client",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
